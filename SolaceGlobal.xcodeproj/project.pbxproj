@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0410A81123707BD90080BF3A /* AlertPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410A81023707BD90080BF3A /* AlertPin.swift */; };
+		0410A815237310120080BF3A /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410A814237310120080BF3A /* AlertViewController.swift */; };
+		0410A817237385610080BF3A /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410A816237385600080BF3A /* NetworkTest.swift */; };
+		04AA1ED5236E4B6400B50886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1ED4236E4B6400B50886 /* AppDelegate.swift */; };
+		04AA1ED7236E4B6400B50886 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1ED6236E4B6400B50886 /* MainScreen.swift */; };
+		04AA1EDA236E4B6400B50886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA1ED8236E4B6400B50886 /* Main.storyboard */; };
+		04AA1EDC236E4B6500B50886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA1EDB236E4B6500B50886 /* Assets.xcassets */; };
+		04AA1EDF236E4B6500B50886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA1EDD236E4B6500B50886 /* LaunchScreen.storyboard */; };
+		04AA1EEA236E4B6500B50886 /* SolaceGlobalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1EE9236E4B6500B50886 /* SolaceGlobalTests.swift */; };
+		04AA1EF5236E4B6500B50886 /* SolaceGlobalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1EF4236E4B6500B50886 /* SolaceGlobalUITests.swift */; };
+		49A791CA2EE208DD8052D928 /* Pods_SolaceGlobalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809F1107327B80B1E57BB512 /* Pods_SolaceGlobalTests.framework */; };
+		9BEA177835C228D5DBF72A16 /* Pods_SolaceGlobalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AA645064FF2E3ECA5350EE /* Pods_SolaceGlobalUITests.framework */; };
+		A17BDC6377B1A368530BA99E /* Pods_SolaceGlobal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FCA16C3020CB5F9A797112 /* Pods_SolaceGlobal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AA1EE6236E4B6500B50886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AA1EC9236E4B6400B50886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AA1ED0236E4B6400B50886;
+			remoteInfo = SolaceGlobal;
+		};
+		04AA1EF1236E4B6500B50886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AA1EC9236E4B6400B50886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AA1ED0236E4B6400B50886;
+			remoteInfo = SolaceGlobal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0410A81023707BD90080BF3A /* AlertPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPin.swift; sourceTree = "<group>"; };
+		0410A814237310120080BF3A /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		0410A816237385600080BF3A /* NetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
+		04AA1ED1236E4B6400B50886 /* SolaceGlobal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolaceGlobal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA1ED4236E4B6400B50886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AA1ED6236E4B6400B50886 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		04AA1ED9236E4B6400B50886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AA1EDB236E4B6500B50886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AA1EDE236E4B6500B50886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AA1EE0236E4B6500B50886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA1EE5236E4B6500B50886 /* SolaceGlobalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolaceGlobalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA1EE9236E4B6500B50886 /* SolaceGlobalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolaceGlobalTests.swift; sourceTree = "<group>"; };
+		04AA1EEB236E4B6500B50886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA1EF0236E4B6500B50886 /* SolaceGlobalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolaceGlobalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA1EF4236E4B6500B50886 /* SolaceGlobalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolaceGlobalUITests.swift; sourceTree = "<group>"; };
+		04AA1EF6236E4B6500B50886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AA645064FF2E3ECA5350EE /* Pods_SolaceGlobalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolaceGlobalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702D5CD06DF2496526883174 /* Pods-SolaceGlobalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolaceGlobalTests.debug.xcconfig"; path = "Target Support Files/Pods-SolaceGlobalTests/Pods-SolaceGlobalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		737DE9ED8745AC947544E3A6 /* Pods-SolaceGlobalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolaceGlobalUITests.debug.xcconfig"; path = "Target Support Files/Pods-SolaceGlobalUITests/Pods-SolaceGlobalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		809F1107327B80B1E57BB512 /* Pods_SolaceGlobalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolaceGlobalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		853193E5B01457F4FF0226B9 /* Pods-SolaceGlobalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolaceGlobalTests.release.xcconfig"; path = "Target Support Files/Pods-SolaceGlobalTests/Pods-SolaceGlobalTests.release.xcconfig"; sourceTree = "<group>"; };
+		97C0B50D7578F77DAD0DC301 /* Pods-SolaceGlobal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolaceGlobal.debug.xcconfig"; path = "Target Support Files/Pods-SolaceGlobal/Pods-SolaceGlobal.debug.xcconfig"; sourceTree = "<group>"; };
+		B5FCA16C3020CB5F9A797112 /* Pods_SolaceGlobal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolaceGlobal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDEFA18BD6084A63AC2EAB5 /* Pods-SolaceGlobalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolaceGlobalUITests.release.xcconfig"; path = "Target Support Files/Pods-SolaceGlobalUITests/Pods-SolaceGlobalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBA503881A69352223024A48 /* Pods-SolaceGlobal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolaceGlobal.release.xcconfig"; path = "Target Support Files/Pods-SolaceGlobal/Pods-SolaceGlobal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AA1ECE236E4B6400B50886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17BDC6377B1A368530BA99E /* Pods_SolaceGlobal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1EE2236E4B6500B50886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A791CA2EE208DD8052D928 /* Pods_SolaceGlobalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1EED236E4B6500B50886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEA177835C228D5DBF72A16 /* Pods_SolaceGlobalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AA1EC8236E4B6400B50886 = {
+			isa = PBXGroup;
+			children = (
+				04AA1ED3236E4B6400B50886 /* SolaceGlobal */,
+				04AA1EE8236E4B6500B50886 /* SolaceGlobalTests */,
+				04AA1EF3236E4B6500B50886 /* SolaceGlobalUITests */,
+				04AA1ED2236E4B6400B50886 /* Products */,
+				C3EAEF32586BFE70B43155BC /* Pods */,
+				065B9660A356850CD654707C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04AA1ED2236E4B6400B50886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AA1ED1236E4B6400B50886 /* SolaceGlobal.app */,
+				04AA1EE5236E4B6500B50886 /* SolaceGlobalTests.xctest */,
+				04AA1EF0236E4B6500B50886 /* SolaceGlobalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AA1ED3236E4B6400B50886 /* SolaceGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				04AA1ED4236E4B6400B50886 /* AppDelegate.swift */,
+				04AA1ED6236E4B6400B50886 /* MainScreen.swift */,
+				0410A816237385600080BF3A /* NetworkTest.swift */,
+				0410A81023707BD90080BF3A /* AlertPin.swift */,
+				04AA1ED8236E4B6400B50886 /* Main.storyboard */,
+				0410A814237310120080BF3A /* AlertViewController.swift */,
+				04AA1EDB236E4B6500B50886 /* Assets.xcassets */,
+				04AA1EDD236E4B6500B50886 /* LaunchScreen.storyboard */,
+				04AA1EE0236E4B6500B50886 /* Info.plist */,
+			);
+			path = SolaceGlobal;
+			sourceTree = "<group>";
+		};
+		04AA1EE8236E4B6500B50886 /* SolaceGlobalTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AA1EE9236E4B6500B50886 /* SolaceGlobalTests.swift */,
+				04AA1EEB236E4B6500B50886 /* Info.plist */,
+			);
+			path = SolaceGlobalTests;
+			sourceTree = "<group>";
+		};
+		04AA1EF3236E4B6500B50886 /* SolaceGlobalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AA1EF4236E4B6500B50886 /* SolaceGlobalUITests.swift */,
+				04AA1EF6236E4B6500B50886 /* Info.plist */,
+			);
+			path = SolaceGlobalUITests;
+			sourceTree = "<group>";
+		};
+		065B9660A356850CD654707C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5FCA16C3020CB5F9A797112 /* Pods_SolaceGlobal.framework */,
+				809F1107327B80B1E57BB512 /* Pods_SolaceGlobalTests.framework */,
+				08AA645064FF2E3ECA5350EE /* Pods_SolaceGlobalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3EAEF32586BFE70B43155BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C0B50D7578F77DAD0DC301 /* Pods-SolaceGlobal.debug.xcconfig */,
+				EBA503881A69352223024A48 /* Pods-SolaceGlobal.release.xcconfig */,
+				702D5CD06DF2496526883174 /* Pods-SolaceGlobalTests.debug.xcconfig */,
+				853193E5B01457F4FF0226B9 /* Pods-SolaceGlobalTests.release.xcconfig */,
+				737DE9ED8745AC947544E3A6 /* Pods-SolaceGlobalUITests.debug.xcconfig */,
+				CBDEFA18BD6084A63AC2EAB5 /* Pods-SolaceGlobalUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AA1ED0236E4B6400B50886 /* SolaceGlobal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA1EF9236E4B6500B50886 /* Build configuration list for PBXNativeTarget "SolaceGlobal" */;
+			buildPhases = (
+				FD7C3526603D4538D9569854 /* [CP] Check Pods Manifest.lock */,
+				04AA1ECD236E4B6400B50886 /* Sources */,
+				04AA1ECE236E4B6400B50886 /* Frameworks */,
+				04AA1ECF236E4B6400B50886 /* Resources */,
+				441FD46780C34408287C3DE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolaceGlobal;
+			productName = SolaceGlobal;
+			productReference = 04AA1ED1236E4B6400B50886 /* SolaceGlobal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AA1EE4236E4B6500B50886 /* SolaceGlobalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA1EFC236E4B6500B50886 /* Build configuration list for PBXNativeTarget "SolaceGlobalTests" */;
+			buildPhases = (
+				CD0652B15CF6C8C5F54BDDA7 /* [CP] Check Pods Manifest.lock */,
+				04AA1EE1236E4B6500B50886 /* Sources */,
+				04AA1EE2236E4B6500B50886 /* Frameworks */,
+				04AA1EE3236E4B6500B50886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AA1EE7236E4B6500B50886 /* PBXTargetDependency */,
+			);
+			name = SolaceGlobalTests;
+			productName = SolaceGlobalTests;
+			productReference = 04AA1EE5236E4B6500B50886 /* SolaceGlobalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AA1EEF236E4B6500B50886 /* SolaceGlobalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA1EFF236E4B6500B50886 /* Build configuration list for PBXNativeTarget "SolaceGlobalUITests" */;
+			buildPhases = (
+				CEAAD19C8AA7F3AABCDF77AC /* [CP] Check Pods Manifest.lock */,
+				04AA1EEC236E4B6500B50886 /* Sources */,
+				04AA1EED236E4B6500B50886 /* Frameworks */,
+				04AA1EEE236E4B6500B50886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AA1EF2236E4B6500B50886 /* PBXTargetDependency */,
+			);
+			name = SolaceGlobalUITests;
+			productName = SolaceGlobalUITests;
+			productReference = 04AA1EF0236E4B6500B50886 /* SolaceGlobalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AA1EC9236E4B6400B50886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jack Sherwood";
+				TargetAttributes = {
+					04AA1ED0236E4B6400B50886 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					04AA1EE4236E4B6500B50886 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 04AA1ED0236E4B6400B50886;
+					};
+					04AA1EEF236E4B6500B50886 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 04AA1ED0236E4B6400B50886;
+					};
+				};
+			};
+			buildConfigurationList = 04AA1ECC236E4B6400B50886 /* Build configuration list for PBXProject "SolaceGlobal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AA1EC8236E4B6400B50886;
+			productRefGroup = 04AA1ED2236E4B6400B50886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AA1ED0236E4B6400B50886 /* SolaceGlobal */,
+				04AA1EE4236E4B6500B50886 /* SolaceGlobalTests */,
+				04AA1EEF236E4B6500B50886 /* SolaceGlobalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AA1ECF236E4B6400B50886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA1EDF236E4B6500B50886 /* LaunchScreen.storyboard in Resources */,
+				04AA1EDC236E4B6500B50886 /* Assets.xcassets in Resources */,
+				04AA1EDA236E4B6400B50886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1EE3236E4B6500B50886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1EEE236E4B6500B50886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		441FD46780C34408287C3DE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolaceGlobal/Pods-SolaceGlobal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolaceGlobal/Pods-SolaceGlobal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolaceGlobal/Pods-SolaceGlobal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0652B15CF6C8C5F54BDDA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolaceGlobalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEAAD19C8AA7F3AABCDF77AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolaceGlobalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7C3526603D4538D9569854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolaceGlobal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AA1ECD236E4B6400B50886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0410A81123707BD90080BF3A /* AlertPin.swift in Sources */,
+				0410A817237385610080BF3A /* NetworkTest.swift in Sources */,
+				04AA1ED7236E4B6400B50886 /* MainScreen.swift in Sources */,
+				04AA1ED5236E4B6400B50886 /* AppDelegate.swift in Sources */,
+				0410A815237310120080BF3A /* AlertViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1EE1236E4B6500B50886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA1EEA236E4B6500B50886 /* SolaceGlobalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1EEC236E4B6500B50886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA1EF5236E4B6500B50886 /* SolaceGlobalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AA1EE7236E4B6500B50886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AA1ED0236E4B6400B50886 /* SolaceGlobal */;
+			targetProxy = 04AA1EE6236E4B6500B50886 /* PBXContainerItemProxy */;
+		};
+		04AA1EF2236E4B6500B50886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AA1ED0236E4B6400B50886 /* SolaceGlobal */;
+			targetProxy = 04AA1EF1236E4B6500B50886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AA1ED8236E4B6400B50886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA1ED9236E4B6400B50886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AA1EDD236E4B6500B50886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA1EDE236E4B6500B50886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AA1EF7236E4B6500B50886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AA1EF8236E4B6500B50886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AA1EFA236E4B6500B50886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C0B50D7578F77DAD0DC301 /* Pods-SolaceGlobal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolaceGlobal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jack.SolaceGlobal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AA1EFB236E4B6500B50886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA503881A69352223024A48 /* Pods-SolaceGlobal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolaceGlobal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jack.SolaceGlobal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AA1EFD236E4B6500B50886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702D5CD06DF2496526883174 /* Pods-SolaceGlobalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolaceGlobalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jack.SolaceGlobalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolaceGlobal.app/SolaceGlobal";
+			};
+			name = Debug;
+		};
+		04AA1EFE236E4B6500B50886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853193E5B01457F4FF0226B9 /* Pods-SolaceGlobalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolaceGlobalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jack.SolaceGlobalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolaceGlobal.app/SolaceGlobal";
+			};
+			name = Release;
+		};
+		04AA1F00236E4B6500B50886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737DE9ED8745AC947544E3A6 /* Pods-SolaceGlobalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolaceGlobalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jack.SolaceGlobalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolaceGlobal;
+			};
+			name = Debug;
+		};
+		04AA1F01236E4B6500B50886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDEFA18BD6084A63AC2EAB5 /* Pods-SolaceGlobalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolaceGlobalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jack.SolaceGlobalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolaceGlobal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AA1ECC236E4B6400B50886 /* Build configuration list for PBXProject "SolaceGlobal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA1EF7236E4B6500B50886 /* Debug */,
+				04AA1EF8236E4B6500B50886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA1EF9236E4B6500B50886 /* Build configuration list for PBXNativeTarget "SolaceGlobal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA1EFA236E4B6500B50886 /* Debug */,
+				04AA1EFB236E4B6500B50886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA1EFC236E4B6500B50886 /* Build configuration list for PBXNativeTarget "SolaceGlobalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA1EFD236E4B6500B50886 /* Debug */,
+				04AA1EFE236E4B6500B50886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA1EFF236E4B6500B50886 /* Build configuration list for PBXNativeTarget "SolaceGlobalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA1F00236E4B6500B50886 /* Debug */,
+				04AA1F01236E4B6500B50886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AA1EC9236E4B6400B50886 /* Project object */;
+}
